@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Variables tipicas
+se crean con $nombre: valor
+*/
+.header {
+  background-color: #f8e5d3;
+  display: flex;
+}
+
+/*
+    &-title {
+      //accede a la subclase
+    }
+
+    & nav {
+      //accede a la etiqueta
+    }
+
+          //accede a la class independiente (nuevo bloque) dentro de otra class. Puede ir fuera, por si se repite. Y crear un variable (mixer) para reatulizar
+      display: flex;
+      text-decoration: none;
+      SUSTITUIDO POR MIXIM
+      @include cajasFlexibles();
+*/
+.main {
+  background-color: purple;
+}
+
+.footer {
+  background-color: pink;
+}/*# sourceMappingURL=style.css.map */
