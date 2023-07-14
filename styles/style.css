@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*
+Variables tipicas
+se crean con $nombre: valor
+*/
+.header-part1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e6e5e3;
+  padding: 0px 5%;
+}
+.header-part1-icono {
+  height: 100px;
+}
+.header-part1-info .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header-part1-info .container-target {
+  font-size: 15px;
+  margin: 10px;
+}
+.header-part2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  margin: 0px 5%;
+}
+.header-part2-burger {
+  background-color: #00862D;
+  width: 50px;
+}
+.header-part2 ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 10px;
+}
+.header-part2 ul li {
+  width: 69px;
+}
+
+.main {
+  padding: 0px 5%;
+  background-color: #e6e5e3;
+}
+.main-title {
+  padding: 15px 0px 0px 15px;
+}
+.main-oferts ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-oferts li {
+  width: 100%;
+  height: 40px;
+  margin: 15px;
+  background-color: #00862D;
+}
+.main-section1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-section1-target {
+  background-color: #ffffff;
+  height: 45%, 618034;
+  width: 45%;
+  margin: 15px;
+}
+.main-section1-target img {
+  width: 100%;
+}
+.main-section2 {
+  background-color: #ffffff;
+  margin: 15px;
+  width: 100%;
+}
+.main-section3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 15px;
+  width: 100%;
+}
+.main-section3 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+}
+.main-section3 ul li {
+  width: 100%;
+  height: 40px;
+  margin: 15px;
+}
+
+.footer {
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */

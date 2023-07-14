@@ -1,0 +1,66 @@
+.main {
+  padding: $padding-main;
+  background-color: $color-bone;
+
+  &-title {
+    padding: 15px 0px 0px 15px;
+  }
+  &-oferts {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    li {
+      width: 100%;
+      height: 40px;
+      margin: 15px;
+      background-color: $color-green;
+    }
+  }
+
+  &-section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &-target {
+      background-color: $color-white;
+
+      $size: 45%;
+      height: $size * 1, 618034;
+      width: $size;
+      margin: 15px;
+      & img {
+        width: 100%;
+      }
+    }
+  }
+  &-section2{
+    background-color: $color-white;
+    margin: 15px;
+    width: 100%;
+  }
+
+  &-section3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px;
+    width: 100%;
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      height: 150px;
+      li {
+        width: 100%;
+        height: 40px;
+        margin: 15px;
+      }
+    }
+  }
+}

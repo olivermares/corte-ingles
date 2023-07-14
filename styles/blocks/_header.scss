@@ -1,0 +1,45 @@
+.header {
+  &-part1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-bone;
+    padding:  $padding-main;
+    &-icono {
+      height: 100px;
+    }
+
+    &-info {
+      .container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        
+       &-target{
+          font-size: 15px;
+          margin: 10px;
+        }
+      }
+    }
+  }
+  &-part2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-white;
+    margin: $padding-main;
+    &-burger {
+      background-color: $color-green;
+      width: 50px;
+    }
+    ul{
+      height: 100%;
+      display: flex;
+      justify-content:space-evenly;  
+      align-items: center;
+      font-size: 10px; 
+      li{
+        width: 69px;
+      }
+    }
+  }
+}
